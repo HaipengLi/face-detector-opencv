@@ -1,0 +1,25 @@
+# Face detector 
+
+Implemented a face detector using OpenCV.
+
+Detect all the faces using your webcam.
+
+## Requirements
+
+numpy
+
+opencv>=3.3.0
+
+## Run
+```
+python main_camera.py
+```
+
+## Demo
+TODO
+
+
+## Detectors
+1. [Cascade Classifier](https://docs.opencv.org/3.3.0/dc/d88/tutorial_traincascade.html)
+
+2. [OpenCV DNN Face Detector](https://github.com/opencv/opencv/tree/master/samples/dnn)

@@ -3,10 +3,11 @@ import cv2
 import numpy as np
 
 from facedetector import CascadeFaceDetector, OpencvFaceDetector
+from config import CascadeFaceDetectorConfig, OpencvFaceDetectorConfig
 
 
 def main():
-    fd = OpencvFaceDetector()
+    fd = OpencvFaceDetector(OpencvFaceDetectorConfig)
     cap = cv2.VideoCapture(0)
     cap.set(3, 640)  # set Width
     cap.set(4, 480)  # set Height
