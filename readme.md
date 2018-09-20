@@ -10,6 +10,8 @@ numpy
 
 opencv>=3.3.0
 
+(Do you know you can install OpenCV using `pip install opencv-contrib-python`? Check it out [here](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/)  )
+
 ## Run
 ```
 python main_camera.py
